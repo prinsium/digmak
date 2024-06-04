@@ -2,29 +2,77 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+background-color: #373A40;
 }
+
+.navtitle {
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 1rem;
+}
+
+h1 {
+  font-size: 13vw;
+  color: black;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 6vw;
+  color: black;
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 3vw;
+  color: rgb(251, 42, 42);
+  font-weight: 500;
+}
+
+li {
+  font-size: 1.5vw;
+  color: black;
+  font-weight: 400;
+}
+
+.footer-link {
+  font-size: 1.5vw;
+  color: black;
+  font-weight: 400;
+}
+
+@media (min-width: 1260px) {
+p{
+  font-size: 1.5vw;
+}
+
+}
+
+@media screen and (max-width: 760px) {
+
+  h1{
+    font-size: 4rem;
+  }
+
+  h2{
+    font-size: 1.5rem;
+  }
+
+  h6{
+    font-size: 1.3rem;
+  }
+
+  li{
+    font-size: 1rem;
+  }
+
+  .footer-link {
+      font-size: 1rem;
+  }
+
+}
+
 
 @layer utilities {
   .text-balance {
