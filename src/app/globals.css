@@ -16,6 +16,7 @@ h1 {
   font-size: 13vw;
   color: black;
   font-weight: 600;
+  line-height: 10vw;
 }
 
 h2 {
@@ -52,7 +53,8 @@ p{
 @media screen and (max-width: 760px) {
 
   h1{
-    font-size: 4rem;
+    font-size: 20vw;
+    line-height: 15vw;
   }
 
   h2{
