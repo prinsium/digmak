@@ -7,13 +7,13 @@ export default function About() {
         <div className="flex flex-col justify-center">
           <div className="flex justify-start translate-y-8 translate-x-0 sm:translate-y-8 sm:translate-x-8 md:translate-y-14 md:translate-x-14 z-30">
             <button className="w-fit h-fit translate-y-0 md:-translate-y-6 group flex flex-row justify-between items-center rounded-full bg-red-600 text-gray-100 text-2xl p-3 gap-2">
-              <svg
+            <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke-width="2"
                 stroke="#dc2626"
-                class="size-8 rounded-full bg-gray-100 p-2 group-hover:-rotate-45 transition delay-150"
+                class="size-12 rounded-full bg-gray-100 p-2 group-hover:-rotate-45 transition delay-150"
               >
                 <path
                   stroke-linecap="round"
@@ -21,9 +21,7 @@ export default function About() {
                   d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
                 />
               </svg>
-              <div className="hidden md:block group-hover:-translate-x-1 -translate-y-0.5 transition delay-150">
-                Contact
-              </div>
+              <div className="group-hover:-translate-x-1 -translate-y-0.5 transition delay-150 text-[3rem]">Contact</div>
             </button>
           </div>
 
@@ -44,11 +42,11 @@ export default function About() {
             <h2 className="text-slate-100">We deliver for your need</h2>
           </div>
 
-          <div className="flex justify-start translate-y-0 md:translate-y-8">
+          <div className="flex justify-start translate-y-0 md:translate-y-6">
             <p className="text-slate-100">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
-              exercitationem voluptatem ipsa cupiditate quia maiores labore
-              blanditiis accusamus qui tempore.
+            Building scalable digital solutions for startups, agencies, and enterprises worldwide.
+            With a versatile team and a growing tech stack, we bridge the gap between your ideas and real-world impact.
+            <br />From design to deployment, we turn business goals into high-performing products.
             </p>
           </div>
         </div>

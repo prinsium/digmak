@@ -17,7 +17,7 @@ export default function Footer() {
                 viewBox="0 0 24 24"
                 stroke-width="2"
                 stroke="#dc2626"
-                class="size-8 rounded-full bg-gray-100 p-2 group-hover:-rotate-45 transition delay-150"
+                class="size-12 rounded-full bg-gray-100 p-2 group-hover:-rotate-45 transition delay-150"
               >
                 <path
                   stroke-linecap="round"
@@ -25,7 +25,7 @@ export default function Footer() {
                   d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
                 />
               </svg>
-              <div className="group-hover:-translate-x-1 -translate-y-0.5 transition delay-150">Contact</div>
+              <div className="group-hover:-translate-x-1 -translate-y-0.5 transition delay-150 text-[3rem]">Contact</div>
             </button>
           </div>
         </div>
@@ -36,6 +36,7 @@ export default function Footer() {
                 <li>Home</li>
                 <li>Services</li>
                 <li>Work</li>
+                <li>About</li>
                 <li>Blog</li>
             </ul>
           </div>

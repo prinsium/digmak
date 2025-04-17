@@ -12,7 +12,7 @@ export default function Navbar() {
 
         <div className="flex flex-row gap-2 justify-center items-center">
           <div className="hidden md:block ">
-        <button className="w-fit h-fit group flex flex-row justify-between items-center rounded-full bg-gray-900 text-gray-100 text-2xl p-3 gap-2">
+        <button className="w-fit h-fit group flex flex-row justify-between items-center rounded-full bg-gray-900 text-gray-100 text-2xl p-[0.6rem] gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

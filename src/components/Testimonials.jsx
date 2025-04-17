@@ -11,7 +11,7 @@ export default function Testimonials() {
             <h2 className="text-slate-100">Our Happy Clients</h2>
           </div>
 
-          <div className="flex justify-start translate-y-0 md:translate-y-8">
+          <div className="flex justify-start translate-y-0 md:translate-y-6">
             <p className="text-slate-100">
               We are a bunch of young, passionate trendsetters who are led by
               some of the most credible names in the industry. So when you tap

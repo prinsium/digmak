@@ -47,6 +47,7 @@ export default function Homepage() {
     }, []);
 
     return (
+        <div>
         <div className="bg-white pt-24 md:pt-16">
             <div className="flex flex-col mx-2 sm:mx-4 md:mx-12 lg:mx-24 px-8 pt-8">
                 <div className='z-20'>
@@ -62,13 +63,17 @@ export default function Homepage() {
                 </div>
 
                 <div className="flex flex-row justify-between items-center gap-12">
-                    <p className="lg:hidden text-gray-800">
+                    <p className="lg:hidden text-gray-800 pt-4">
                         We as a leading outsourcing firm, putting every ounce of innovation, dedication and skill - we love to help you scale your business growth
                     </p>
                 </div>
                 </div>
 
-                <video
+               
+            </div>
+        </div>
+
+        <video
                     ref={videoRef}
                     src="/asset/vid1.mp4"
                     type="video/mp4"
@@ -77,11 +82,11 @@ export default function Homepage() {
                     muted
                     playsInline
                     className="w-full h-auto z-10 -translate-y-6"
-                    style={{ objectFit: 'cover' }}
+                    style={{ objectFit: 'fill' }}
                 >
                     Your browser does not support the video tag.
                 </video>
-            </div>
+
         </div>
     );
 }

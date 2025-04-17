@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-background-color: #373A40;
+background-color: #222125;
 }
 
 .navtitle {
@@ -23,6 +23,7 @@ h2 {
   font-size: 6vw;
   color: black;
   font-weight: 500;
+  line-height: 1;
 }
 
 h6 {
